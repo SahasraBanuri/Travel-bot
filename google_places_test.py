@@ -6,7 +6,7 @@ import requests
 load_dotenv()
 
 # ✅ Get the API key securely
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("TRAVEL_API_KEY")
 
 # ✅ Check if API key is loaded correctly
 if not API_KEY:
